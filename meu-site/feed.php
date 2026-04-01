@@ -54,7 +54,7 @@ if (isset($_POST["curtir"])) {
     <img src="img/joker-persona-video.webp">
     <div>
         <h2><?php echo $_SESSION["usuario"]; ?></h2>
-        <p>@usuario</p>
+        <p>@swgiruy</p>
     </div>
 </div>
 
