@@ -10,7 +10,7 @@ if (!isset($_SESSION["posts"])) {
     $_SESSION["posts"] = [];
 }
 
-// criar post
+
 if (isset($_POST["postar"])) {
     $texto = trim($_POST["texto"]);
 
@@ -25,7 +25,6 @@ if (isset($_POST["postar"])) {
     }
 }
 
-// curtir
 if (isset($_POST["curtir"])) {
     $index = $_POST["index"];
     $_SESSION["posts"][$index]["curtidas"]++;
